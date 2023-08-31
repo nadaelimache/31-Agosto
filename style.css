@@ -77,13 +77,16 @@ main {
 
 h2 + p {
     color: grey;
+    font-size: 15px;
 }
 
 .grey {
     border-radius: 5px;
+    background-color: rgb(208, 205, 205);
+    border: 1px solid grey
 }
 
-#p-text {
+.p-text {
     color:rgb(156, 46, 110);
 }
 
@@ -107,14 +110,14 @@ hr {
 }
 
 footer {
-    background: rgba(9,77,102,1);
-background: -moz-linear-gradient(-45deg, rgba(9,77,102,1) 0%, rgba(13,84,117,1) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(9,77,102,1)), color-stop(100%, rgba(13,84,117,1)));
-background: -webkit-linear-gradient(-45deg, rgba(9,77,102,1) 0%, rgba(13,84,117,1) 100%);
-background: -o-linear-gradient(-45deg, rgba(9,77,102,1) 0%, rgba(13,84,117,1) 100%);
-background: -ms-linear-gradient(-45deg, rgba(9,77,102,1) 0%, rgba(13,84,117,1) 100%);
-background: linear-gradient(135deg, rgba(9,77,102,1) 0%, rgba(13,84,117,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#094d66', endColorstr='#0d5475', GradientType=1 );
+background: rgba(36,73,87,1);
+background: -moz-linear-gradient(45deg, rgba(36,73,87,1) 0%, rgba(87,155,184,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(36,73,87,1)), color-stop(100%, rgba(87,155,184,1)));
+background: -webkit-linear-gradient(45deg, rgba(36,73,87,1) 0%, rgba(87,155,184,1) 100%);
+background: -o-linear-gradient(45deg, rgba(36,73,87,1) 0%, rgba(87,155,184,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(36,73,87,1) 0%, rgba(87,155,184,1) 100%);
+background: linear-gradient(45deg, rgba(36,73,87,1) 0%, rgba(87,155,184,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#244957', endColorstr='#579bb8', GradientType=1 );
     text-align: center;
     color: white;
     font-family: sans-serif;
@@ -132,10 +135,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#094d66', end
 iframe {
     border-radius: 20px;
     margin-left: 10px;
-    
+    margin-bottom: 20px;
 }
 
 #sign-in {
     background-color: rgba(0, 0, 255, 0.483);
     color: white;
+}
+
+#email {
+    color:rgb(237, 46, 224);
+}
+
+.title {
+    text-align: center;
+}
+
+.date {
+    text-align: end;
+    font-size: 12px;
+}
+
+i {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#table {
+    background-color: rgba(0, 0, 255, 0.483);
+    color: white;
+}
+
+.color {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grey-table {
+    background-color: rgb(243, 239, 239);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.white-table {
+    text-align: center;
 }
