@@ -95,7 +95,7 @@ hr {
     margin-bottom: 0px;
 }
 
-#p-href {
+.p-href {
     color:rgba(21, 88, 170, 0.623);
 }
 
@@ -184,4 +184,12 @@ i {
 
 .white-table {
     text-align: center;
+}
+
+.link {
+    color:
+}
+
+#email {
+    border-bottom: dashed rgb(3, 29, 3);
 }
